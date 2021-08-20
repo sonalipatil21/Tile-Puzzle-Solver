@@ -15,10 +15,10 @@ The file shows the starting configuration of the tiles in the puzzle and the ‘
  13 14 15 X
 ```
 Individual tiles can slide up/down/left/right into the empty space (or this can be thought of moving the empty space up/down/left/right by swapping it with the relevant adjacent tile). Puzzles may have more than one possible solution and some may require fewer tile swaps than others. And some will be unsolvable like:
-``
+```
 2 1 
 3 X
-``
+```
 This program determines whether the puzzle can be solved and if so, provides a sequence of tile moves that would be needed to transform the starting configuration into the ending one. The code outputs the solution to the puzzle that it finds, as well as the number of tile moves required by the solution. This to specified by empty space moves – up, down, left, and right. If there is more than one solution, only one will be outputted. The code also tracks:
 
 - How long in milliseconds it takes to find a solution to a particular crossword
