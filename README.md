@@ -7,10 +7,10 @@ Implement code to solve 3-puzzles, 8-puzzles and 15-puzzles. Puzzle files are fo
 
 ## Implementation
 The file shows the starting configuration of the tiles in the puzzle and the ‘X’ marks the location of the empty space. The puzzles are stored in sub-folders based on size. The tiles need to be rearranged to be in numerical order with the empty space at the end. For the 15-puzzle, it would look like:
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 X
+*1 2 3 4
+*5 6 7 8
+*9 10 11 12
+*13 14 15 X
 
 Individual tiles can slide up/down/left/right into the empty space (or this can be thought of moving the empty space up/down/left/right by swapping it with the relevant adjacent tile). Puzzles may have more than one possible solution and some may require fewer tile swaps than others. And some will be unsolvable like:
 2 1 
